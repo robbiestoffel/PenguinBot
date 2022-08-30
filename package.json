@@ -1,0 +1,37 @@
+{
+  "name": "penguinbot",
+  "version": "1.0.0",
+  "description": "Discord Bot code for Penguin Bot on penguin discord server!",
+  "main": "main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robbiestoffel/PenguinBot.git"
+  },
+  "author": "Wabi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robbiestoffel/PenguinBot/issues"
+  },
+  "homepage": "https://github.com/robbiestoffel/PenguinBot#readme",
+  "dependencies": {
+    "@discordjs/opus": "^0.5.3",
+    "@discordjs/voice": "^0.7.5",
+    "discord.js": "^13.6.0",
+    "ffmpeg": "^0.0.4",
+    "ffmpeg-static": "^4.4.1",
+    "fs": "^0.0.1-security",
+    "libsodium-wrappers": "^0.7.10",
+    "mongoose": "^6.1.6",
+    "ms": "^2.1.3",
+    "node-sass": "^7.0.1",
+    "opusscript": "^0.0.8",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4",
+    "yt-search": "^2.10.3",
+    "ytdl-core": "^4.10.0"
+  }
+}
